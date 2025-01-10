@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  overflow: hidden;
+}
+
+*:focus {
+  outline: none;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
